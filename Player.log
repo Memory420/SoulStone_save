@@ -1,0 +1,288 @@
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Games/Soulstone Survivors-InsaneRamZes/Soulstone Survivors_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   
+    VRAM:     8038 MB
+    Driver:   31.0.15.3623
+<RI> Initializing input.
+New input system (experimental) initialized
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.270600 ms
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Sirenix.Serialization.UnitySerializationInitializer:Initialize()
+
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Sirenix.Serialization.ArchitectureInfo:SetRuntimePlatform(RuntimePlatform)
+Sirenix.Serialization.UnitySerializationInitializer:Initialize()
+
+WwiseUnity: Wwise(R) SDK Version 2021.1.7 Build 7796.
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+AkWwiseInitializationSettings:InitializeSoundEngine()
+AkInitializer:OnEnable()
+
+WwiseUnity: Setting Plugin DLL path to: C:/Games/Soulstone Survivors-InsaneRamZes/Soulstone Survivors_Data\Plugins\x86_64
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AkCommonPlatformSettings:get_AkInitializationSettings()
+AkWwiseInitializationSettings:InitializeSoundEngine()
+AkInitializer:OnEnable()
+
+WwiseUnity: Sound engine initialized successfully.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AkWwiseInitializationSettings:InitializeSoundEngine()
+AkInitializer:OnEnable()
+
+Control scheme changed to: [Keyboard]
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+InputManager:OnControlsChanged(PlayerInput)
+UnityEngine.InputSystem.PlayerInput:HandleControlsChanged()
+UnityEngine.InputSystem.PlayerInput:OnEnable()
+
+Game is running version [0.10.033j].
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MainUIManager:Start()
+
+Checking if system language [ru] is supported...
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+LocalizationManager:Setup(CultureInfo)
+MainUIManager:Start()
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 4)
+UnloadTime: 0.421400 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 79918.
+Total: 76.425900 ms (FindLiveObjects: 2.363000 ms CreateObjectMapping: 1.987400 ms MarkObjects: 71.986800 ms  DeleteObjects: 0.088300 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 4)
+UnloadTime: 167.362200 ms
+
+Unloading 19378 unused Assets to reduce memory usage. Loaded Objects now: 160642.
+Total: 131.741900 ms (FindLiveObjects: 6.489800 ms CreateObjectMapping: 5.085900 ms MarkObjects: 113.654000 ms  DeleteObjects: 6.511700 ms)
+
+Somehow prefabPool for prefab [VFX_Generic_Hit (VfxReferences)] had a null object stored! Ignoring it..
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+ResourcesUtil`1:TryGetPrefabInstanceOrPrefab(T, Int32&, T&)
+ResourcesUtil`1:GetPrefabInstance(T, Vector3, Quaternion, Transform, T&)
+<RunVfx>d__10:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ChangeHealthEffect:DoApplyEffects(Entity, StatsComponentReference, PassiveSkillsComponentReference, Transform, SkillTargetToProcessData, Boolean)
+SkillEffect:ApplyEffect(Entity, StatsComponentReference, PassiveSkillsComponentReference, Transform, List`1, Boolean)
+Skill:DoApplyEffects(List`1, List`1, List`1, Transform, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+Skill:ApplyEffects(List`1, List`1, List`1, Transform, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+SkillUtil:ProcessTargetAreaTrigger(Transform, TargetAreaTrigger, Skill, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+SkillUtil:ProcessTargetAreaTraits(Transform, SkillTargetAreaTrait[], Skill, SkillEffect[], SkillEffect[], SkillEffect[])
+MeleeSkill:Update()
+
+Somehow prefabPool for prefab [VFX_Generic_Hit (VfxReferences)] had a null object stored! Ignoring it..
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+ResourcesUtil`1:TryGetPrefabInstanceOrPrefab(T, Int32&, T&)
+ResourcesUtil`1:GetPrefabInstance(T, Vector3, Quaternion, Transform, T&)
+<RunVfx>d__10:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ChangeHealthEffect:DoApplyEffects(Entity, StatsComponentReference, PassiveSkillsComponentReference, Transform, SkillTargetToProcessData, Boolean)
+SkillEffect:ApplyEffect(Entity, StatsComponentReference, PassiveSkillsComponentReference, Transform, List`1, Boolean)
+Skill:DoApplyEffects(List`1, List`1, List`1, Transform, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+Skill:ApplyEffects(List`1, List`1, List`1, Transform, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+SkillUtil:ProcessTargetAreaTrigger(Transform, TargetAreaTrigger, Skill, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+SkillUtil:ProcessTargetAreaTraits(Transform, SkillTargetAreaTrait[], Skill, SkillEffect[], SkillEffect[], SkillEffect[])
+MeleeSkill:Update()
+
+Somehow prefabPool for prefab [VFX_Generic_Hit (VfxReferences)] had a null object stored! Ignoring it..
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+ResourcesUtil`1:TryGetPrefabInstanceOrPrefab(T, Int32&, T&)
+ResourcesUtil`1:GetPrefabInstance(T, Vector3, Quaternion, Transform, T&)
+<RunVfx>d__10:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ChangeHealthEffect:DoApplyEffects(Entity, StatsComponentReference, PassiveSkillsComponentReference, Transform, SkillTargetToProcessData, Boolean)
+SkillEffect:ApplyEffect(Entity, StatsComponentReference, PassiveSkillsComponentReference, Transform, List`1, Boolean)
+Skill:DoApplyEffects(List`1, List`1, List`1, Transform, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+Skill:ApplyEffects(List`1, List`1, List`1, Transform, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+SkillUtil:ProcessTargetAreaTrigger(Transform, TargetAreaTrigger, Skill, SkillEffect[], SkillEffect[], SkillEffect[], Boolean)
+ChannelingContinuousAreaSkill:Update()
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 4)
+UnloadTime: 242.701600 ms
+
+Unloading 53111 unused Assets to reduce memory usage. Loaded Objects now: 85698.
+Total: 192.879000 ms (FindLiveObjects: 7.011200 ms CreateObjectMapping: 6.772800 ms MarkObjects: 129.818900 ms  DeleteObjects: 49.275500 ms)
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 4)
+UnloadTime: 171.257500 ms
+
+Unloading 13866 unused Assets to reduce memory usage. Loaded Objects now: 137700.
+Total: 178.985900 ms (FindLiveObjects: 5.444700 ms CreateObjectMapping: 4.145500 ms MarkObjects: 159.449900 ms  DeleteObjects: 9.945300 ms)
+
+Could not upload Map Progression achievement data to Steam because Steam API is not initialized.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+SaveLoadUtil:SaveMapProgression(Int32, PlayerProfileMapProgression)
+SurvivorsGameManager:SaveToProfile()
+SurvivorsGameManager:Update()
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 4)
+UnloadTime: 100.017900 ms
+
+Unloading 5042 unused Assets to reduce memory usage. Loaded Objects now: 85700.
+Total: 136.711800 ms (FindLiveObjects: 3.184400 ms CreateObjectMapping: 2.903500 ms MarkObjects: 125.979800 ms  DeleteObjects: 4.643800 ms)
+
+Could not upload Map Progression achievement data to Steam because Steam API is not initialized.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+SaveLoadUtil:SaveMapProgression(Int32, PlayerProfileMapProgression)
+MapSelectionScreenPanel:SelectMap(MapItem)
+MapSelectionScreenPanel:Open()
+MenuManager:OpenState(MainMenuState)
+MenuManager:Update()
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 4)
+UnloadTime: 166.765400 ms
+
+Unloading 13825 unused Assets to reduce memory usage. Loaded Objects now: 137705.
+Total: 172.092000 ms (FindLiveObjects: 5.486100 ms CreateObjectMapping: 3.633200 ms MarkObjects: 156.937400 ms  DeleteObjects: 6.035000 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 4)
+UnloadTime: 224.918900 ms
+
+Unloading 41110 unused Assets to reduce memory usage. Loaded Objects now: 86123.
+Total: 179.042000 ms (FindLiveObjects: 5.824500 ms CreateObjectMapping: 6.043200 ms MarkObjects: 126.349900 ms  DeleteObjects: 40.824000 ms)
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Wait for this stop moving!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SkillTreeScreenPanel:OnBuyPressed()
+ECM2.Characters.UncrouchedEventHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler:Invoke(Object, EventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Discord discard called
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DiscordManager:Discard()
+
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: ab4 -> priority: 1 
+  Thread -> id: 424c -> priority: 1 
+  Thread -> id: 2758 -> priority: 1 
+  Thread -> id: 9bc -> priority: 1 
+  Thread -> id: 1520 -> priority: 1 
+  Thread -> id: f1c -> priority: 1 
